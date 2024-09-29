@@ -122,3 +122,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+ADMIN_SITE_HEADER = "SERCONTS S.A.C."
+ADMIN_SITE_TITLE = "Panel de Administración"
+ADMIN_INDEX_TITLE = "Bienvenido al Panel de Administración de la página web de SERCONTS S.A.C."
