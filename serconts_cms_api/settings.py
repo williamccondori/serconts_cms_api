@@ -25,7 +25,10 @@ SECRET_KEY = 'django-insecure-46%l*9pyfeel@vr68pgquxkdudj3uk-0cb@4xt(-$fprn#r@d^
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    'serconts-cms-api.onrender.com'
+]
 
 
 # Application definition
@@ -37,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'pages.apps.PagesConfig'
 ]
 
 MIDDLEWARE = [
